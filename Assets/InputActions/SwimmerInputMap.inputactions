@@ -1,0 +1,45 @@
+{
+    "name": "Swimmer",
+    "maps": [
+        {
+            "name": "Swimmer",
+            "id": "1c94b781-9121-402b-a1c4-76e3c40d9b54",
+            "actions": [
+                {
+                    "name": "Swim",
+                    "type": "Button",
+                    "id": "1eb2edfc-0c36-4a65-bb4d-db313c134e04",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ec787cb4-aca3-4e26-a0c1-daced1b320f6",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Swim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3d2a3675-e857-40b0-8987-eaf6be847dea",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Swim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
