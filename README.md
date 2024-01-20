@@ -55,7 +55,8 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-# Clone do Flappy Bird - Projeto de Estudo na Unity
+# Splash Swimmer
+Clone do Flappy Bird feito para estudo da Unity
 
 ## Visão Geral
 
