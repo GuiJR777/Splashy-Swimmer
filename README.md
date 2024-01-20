@@ -3,7 +3,7 @@ A Unity Study Flappy Bird Clone
 
 ## Overview
 
-This project is a simple clone of the classic game Flappy Bird, developed as a study project in Unity. The main goal is to understand and practice game development concepts using the Unity game engine.
+This project is a clone of the classic game Flappy Bird, developed as a study project in Unity. The main goal is to understand and practice game development concepts using the Unity game engine.
 
 ## Table of Contents
 
@@ -17,7 +17,7 @@ This project is a simple clone of the classic game Flappy Bird, developed as a s
 ## Features
 
 - Flappy Bird gameplay mechanics.
-- Simple 2D graphics.
+- Simple 2D and 3D graphics.
 - Score tracking system.
 
 ## Getting Started
@@ -60,7 +60,7 @@ Clone do Flappy Bird feito para estudo da Unity
 
 ## Visão Geral
 
-Este projeto é um simples clone do clássico jogo Flappy Bird, desenvolvido como um projeto de estudo na Unity. O objetivo principal é compreender e praticar conceitos de desenvolvimento de jogos usando o motor de jogo Unity.
+Este projeto é um clone do clássico jogo Flappy Bird, desenvolvido como um projeto de estudo na Unity. O objetivo principal é compreender e praticar conceitos de desenvolvimento de jogos usando o motor de jogo Unity.
 
 ## Índice
 
@@ -74,7 +74,7 @@ Este projeto é um simples clone do clássico jogo Flappy Bird, desenvolvido com
 ## Recursos
 
 - Mecânicas de jogo do Flappy Bird.
-- Gráficos simples em 2D.
+- Gráficos simples em 2D e 3D.
 - Sistema de rastreamento de pontuação.
 
 ## Como Começar
