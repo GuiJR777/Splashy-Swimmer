@@ -1,4 +1,5 @@
-# Flappy Bird Clone - Unity Study Project
+# Splash Swimmer
+A Unity Study Flappy Bird Clone
 
 ## Overview
 
