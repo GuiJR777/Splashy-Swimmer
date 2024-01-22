@@ -4,6 +4,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
+    public GameObject GameOverScreen;
 
     public List<GameObject> obstacles;
     public List<GameObject> props;
@@ -15,6 +16,8 @@ public class GameManager : MonoBehaviour
     public Vector2 obstacleYOffset = new Vector2(0.5f, 2f);
 
     public float obstacleXOffset = 20f;
+
+    public bool gameIsOver = false;
 
     [HideInInspector]
     public float score = 0f;
@@ -29,6 +32,26 @@ public class GameManager : MonoBehaviour
 
     public void GameOver(float score)
     {
-        Debug.Log("Game Over! Score: " + score);
+        GameOverScreen.SetActive(true);
+        gameIsOver = true;
+    }
+
+    public void RestartGame()
+    {
+        score = 0f;
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
+    }
+
+    public void updateObstacleSpeed()
+    {
+        if (score % 10 == 0)
+        {
+            increaseObstacleSpeed();
+        }
+    }
+
+    private void increaseObstacleSpeed()
+    {
+        obstacleSpeed += 0.5f;
     }
 }

@@ -8,6 +8,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody physicBody;
     private BubbleSpawner bubbleSpawner;
 
+    public AudioSource audioSource;
     public GameObject sprite;
 
     public float swimForce = 1f;
@@ -33,7 +34,9 @@ public class PlayerController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Sensor"))
         {
+            other.gameObject.GetComponent<AudioSource>().Play();
             GameManager.Instance.score += 1f;
+            GameManager.Instance.updateObstacleSpeed();
         }
     }
 
@@ -60,12 +63,17 @@ public class PlayerController : MonoBehaviour
 
     public void Swim(InputAction.CallbackContext context)
     {
-        if (canSwim)
+        if (canSwim && GameManager.Instance.gameIsOver == false)
         {
             physicBody.velocity = Vector3.zero;
             physicBody.AddForce(Vector3.up * swimForce, ForceMode.Impulse);
             bubbleSpawner.spawnBubble();
             swimCooldown = swimInterval;
+
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+            }
         }
     }
 }

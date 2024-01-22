@@ -23,6 +23,8 @@ public class PropsSpawner : MonoBehaviour
 
     private void spawnProp()
     {
+        if (gameManager.gameIsOver){return;}
+
         GameObject obstacleToSpawn = gameManager.props[Random.Range(0, gameManager.props.Count)];
         float obstacleXOffset = gameManager.obstacleXOffset;
         float obstacleYOffset = -3.72f;

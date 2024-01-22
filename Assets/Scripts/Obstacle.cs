@@ -11,6 +11,8 @@ public class Obstacle : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (GameManager.Instance.gameIsOver){return;}
+
         transform.Translate(Vector3.left * GameManager.Instance.obstacleSpeed * Time.fixedDeltaTime);
 
         if (transform.position.x <= obstacleXMaxOffset)
