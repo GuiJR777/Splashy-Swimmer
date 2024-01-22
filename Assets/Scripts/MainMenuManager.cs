@@ -17,4 +17,10 @@ public class MainMenuMangaer : MonoBehaviour
         audioSource.Play();
         Application.Quit();
     }
+
+    public void onInstagramButtonClicked()
+    {
+        audioSource.Play();
+        Application.OpenURL("https://www.instagram.com/ramirestech.games/");
+    }
 }
