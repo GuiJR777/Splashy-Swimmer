@@ -17,8 +17,6 @@ This project is a clone of the classic game Flappy Bird, developed as a study pr
 - [Getting Started](#getting-started)
 - [How to Play](#how-to-play)
 - [Development Environment](#development-environment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -71,8 +69,6 @@ Este projeto é um clone do clássico jogo Flappy Bird, desenvolvido como um pro
 - [Como Começar](#como-começar)
 - [Como Jogar](#como-jogar)
 - [Ambiente de Desenvolvimento](#ambiente-de-desenvolvimento)
-- [Contribuições](#contribuições)
-- [Licença](#licença)
 
 ## Recursos
 
@@ -102,13 +98,6 @@ Para começar com este projeto, siga estes passos:
 
 Este projeto foi desenvolvido usando as seguintes ferramentas e tecnologias:
 
-- Unity 3D (Versão X.X.X)
+- Unity 3D
 - Linguagem de Programação C#
 
-## Contribuições
-
-Se você deseja contribuir para este projeto, sinta-se à vontade para enviar problemas (issues) ou solicitações de pull (pull requests). Suas contribuições são altamente apreciadas!
-
-## Licença
-
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
