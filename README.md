@@ -1,7 +1,11 @@
-- [🇺🇸](#splash-swimmer---ENG)
-- [🇧🇷](#splash-swimmer---PTBR)
+# Splash Swimmer
 
-# Splash Swimmer - ENG
+[![Logo do projeto](https://github.com/GuiJR777/Splashy-Swimmer/blob/main/ScreenShoots/steam-banner.png?raw=true "Steam Banner")](https://ramirestechgames.itch.io/splash-swimmer "Steam Banne")
+
+- [🇺🇸](#about)
+- [🇧🇷](#sobre)
+
+## About
 A Unity Study Flappy Bird Clone
 
 ## Play
@@ -52,7 +56,7 @@ This project was developed using the following tools and technologies:
 
 ---
 
-# Splash Swimmer - PTBR
+## Sobre
 Clone do Flappy Bird feito para estudo da Unity
 
 ## Jogue
