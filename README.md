@@ -1,5 +1,11 @@
-# Splash Swimmer
+- [🇺🇸](#splash-swimmer---ENG)
+- [🇧🇷](#splash-swimmer---PTBR)
+
+# Splash Swimmer - ENG
 A Unity Study Flappy Bird Clone
+
+## Play
+[Itchio game page](https://ramirestechgames.itch.io/splash-swimmer)
 
 ## Overview
 
@@ -34,29 +40,26 @@ To get started with this project, follow these steps:
 
 ## How to Play
 
-- Press the spacebar to make the bird flap and navigate through the pipes.
-- Avoid colliding with the pipes.
-- Each successful passage through a pair of pipes earns you a point.
+- Press the spacebar to make the swimmer swim and navigate through the obstacles.
+- Avoid colliding with the rocks.
+- Each successful passage through a pair of rocks earns you a point.
 
 ## Development Environment
 
 This project was developed using the following tools and technologies:
 
-- Unity 3D (Version X.X.X)
+- Unity 3D
 - C# Programming Language
 
-## Contributing
-
-If you would like to contribute to this project, feel free to submit issues or pull requests. Your contributions are highly appreciated!
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-# Splash Swimmer
+# Splash Swimmer - PTBR
 Clone do Flappy Bird feito para estudo da Unity
+
+## Jogue
+[Pagina do game no Itchio](https://ramirestechgames.itch.io/splash-swimmer)
+
 
 ## Visão Geral
 
