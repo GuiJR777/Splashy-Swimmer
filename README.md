@@ -90,9 +90,9 @@ Para começar com este projeto, siga estes passos:
 
 ## Como Jogar
 
-- Pressione a barra de espaço para fazer o pássaro dar um flap e navegar entre os canos.
-- Evite colidir com os canos.
-- Cada passagem bem-sucedida por um par de canos adiciona um ponto à sua pontuação.
+- Pressione a barra de espaço para fazer o mergulhador nadar e navegar entre os obstaculos.
+- Evite colidir com as rochas.
+- Cada passagem bem-sucedida por um par de rochas adiciona um ponto à sua pontuação.
 
 ## Ambiente de Desenvolvimento
 
